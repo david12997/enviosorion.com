@@ -6,7 +6,7 @@ setInterval(()=>{
 
     if(window.screen.width > 800){
     
-        window.location.href= 'home.php?screen=desktop';
+        window.location.href= 'web.php';
         
     }
     
