@@ -2,9 +2,9 @@
 
 if(window.screen.width > 800){
     
-    window.location.href= 'index.php/web';
+    window.location.href= '/web';
     
 }else{
 
-    window.location.href= 'index.php/mobile';
+    window.location.href= '/mobile';
 }
