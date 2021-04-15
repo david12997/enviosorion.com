@@ -1,0 +1,8 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+}
+
+.sombra-mobile{
+    box-shadow: 3px 3px 5px black;
+}
