@@ -13,7 +13,30 @@
     <link rel="stylesheet" href="statics/css/index.css">
 </head>
 <body>
+    <!-- Messenger plugin de chat Code -->
+    <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v10.0'
+          });
+        };
 
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
+
+      <!-- Your plugin de chat code -->
+      <div class="fb-customerchat"
+        attribution="biz_inbox"
+        page_id="104793065070399">
+      </div>
 
     <nav style="z-index:999;box-shadow: 0px 0px 20px black; position: fixed; width:100%;" class="navbar  bg-primary d-flex justify-content-center">
         <img style="width: 150px;" src="statics/img/envios-orion-negro.png" alt="" srcset="">
